@@ -1,4 +1,10 @@
 @media screen and (max-width:600px){
+    body{
+        margin: 0 auto;
+        
+        
+        
+    }
     nav{
         flex-direction: column;
     }
@@ -117,6 +123,14 @@
 .get-lost .section-description{
     max-width: 335px;
 }
+/* newsletter */
+.newsletter{
+    flex-direction: column;
+}
+.newasletter-img{
+   scale: 70%;
+}
+
 /* footer */
 hr{
     width: 335px;
